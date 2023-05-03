@@ -1,2 +1,16 @@
-package com.sandbox.model;public class ChatGPTResponse {
+package com.sandbox.model;
+
+import java.util.List;
+
+public class ChatGPTResponse {
+
+    private List<ChatGPTChoice> choices;
+
+    public List<ChatGPTChoice> getChoices() {
+        return choices;
+    }
+
+    public void setChoices(List<ChatGPTChoice> choices) {
+        this.choices = choices;
+    }
 }
